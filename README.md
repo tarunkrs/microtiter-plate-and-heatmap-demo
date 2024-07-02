@@ -50,11 +50,11 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ### Clone the repository:
 
-- git clone [PATH](https://github.com/phptarun/Microtiter-Plate-And-Heatmap.git)
+- git clone [PATH](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
 ### Once clone is successful, to install required modules
 
-- Run > **cd Microtiter-Plate-And-Heatmap**
+- Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **npm install** to install the dependencies
 
 ### To run the application
@@ -66,12 +66,12 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ### Clone the repository:
 
-- git clone [PATH](https://github.com/phptarun/Microtiter-Plate-And-Heatmap.git)
+- git clone [PATH](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
 ### Once clone is successful, nevigate to respective dir
 
-- Run > **cd Microtiter-Plate-And-Heatmap**
-- Run > **docker build -t Microtiter-Plate-And-Heatmap .** to create the build
+- Run > **cd microtiter-plate-and-heatmap-demo**
+- Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
 - Once build is created successfully, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ## License
