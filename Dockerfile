@@ -1,5 +1,8 @@
 # Use an official Node.js runtime as the base image
-FROM node:latest
+FROM node:18-alpine as build
+
+# Install git
+RUN apk add --no-cache git
 
 # Set the working directory in the container
 WORKDIR /app
