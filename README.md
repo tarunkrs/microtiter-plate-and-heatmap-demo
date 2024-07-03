@@ -51,20 +51,12 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ```bash
 # 1. To clone reporepository
-git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
-```
-#### Once clone is successful, to install required modules
-
-```bash
-# 1. Nevigate to directory
+git clone https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git
+# 2. Nevigate to directory
 cd microtiter-plate-and-heatmap-demo
-# 2. To Install dependencies
+# 3. To Install dependencies
 npm install
-```
-#### To run the application
-
-```bash
-# 1. To start the application
+# 4. To start the application
 npm start
 ```
 Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
@@ -75,7 +67,7 @@ Once server is up, now you are able to view the application at [http://localhost
 
 ```bash
 # 1. To clone reporepository
-git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
+git clone https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git
 ```
 #### Once clone is successful, nevigate to respective dir
 
