@@ -50,7 +50,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ### Clone the repository:
 
-- git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
+- Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
 ### Once clone is successful, to install required modules
 
@@ -66,7 +66,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ### Clone the repository:
 
-- git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
+- Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
 ### Once clone is successful, nevigate to respective dir
 
