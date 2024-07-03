@@ -1,5 +1,5 @@
 {
-  "name": "microtiter-heatmap-visualization",
+  "name": "microtiter-plate-heatmap",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
