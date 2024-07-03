@@ -3,6 +3,12 @@
 ### Overview
 This React.js web application allows users to upload a CSV file and visualize the data as a heatmap. The application provides an interactive interface for users to explore and analyze the data efficiently.
 
+## Prerequisites
+
+- NodeJS v18.17.1
+- npm 10.8.1
+- Docker 4.31.1
+
 ## Features
 
 - **Docker Compatibility**: Quickly build and deploy the application using Docker.
@@ -38,12 +44,6 @@ P47,0.52,0.74,0.96,Sample1535,Control
 P48,0.54,0.76,0.98,Sample1536,Treated
 ```
 
-## Prerequisites
-
-- NodeJS v18.17.1
-- npm 10.8.1
-- Docker 4.31.1 (153621)
-
 ## Getting Started
 
 ### Manul Installation
@@ -73,7 +73,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
 - Run > **docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo**
-- Once build is created successfully, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
+- Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ## License
 
