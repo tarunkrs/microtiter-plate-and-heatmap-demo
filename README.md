@@ -73,11 +73,17 @@ docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo
 ```
 Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
-## Technologies Used
+### Technologies Used
 
 - **React JS** [User Interface, Application Logic]
 - **MUI** [User Interface]
 
-## License
+### Support
+
+Please support by starring this project.
+
+[GitHub - tarunkrs](https://github.com/tarunkrs)
+
+### License
 
 This project is licensed under the MIT License. For more information, refer to the LICENSE file.
