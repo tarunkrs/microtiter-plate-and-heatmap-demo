@@ -68,9 +68,7 @@ git clone https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git
 cd microtiter-plate-and-heatmap-demo
 # 3. To create the build
 docker build -t microtiter-plate-and-heatmap-demo . 
-# 4. Nevigate to directory
-cd microtiter-plate-and-heatmap-demo
-# 5. To create and run the container
+# 4. To create and run the container
 docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo 
 ```
 Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
