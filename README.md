@@ -43,31 +43,31 @@ P47,0.52,0.74,0.96,Sample1535,Control
 P48,0.54,0.76,0.98,Sample1536,Treated
 ```
 
-### Getting Started
+## Getting Started
 
-#### Manul Installation
+### Manul Installation
 
-##### Clone the repository:
+#### Clone the repository:
 
 - Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
-##### Once clone is successful, to install required modules
+#### Once clone is successful, to install required modules
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **npm install** to install the dependencies
 
-##### To run the application
+#### To run the application
 
 - Run > **npm start** to start the application
 - Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
-#### Installation using Docker
+### Installation using Docker
 
-##### Clone the repository:
+#### Clone the repository:
 
 - Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
-##### Once clone is successful, nevigate to respective dir
+#### Once clone is successful, nevigate to respective dir
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
@@ -79,6 +79,6 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 - **React JS** [User Interface, Application Logic]
 - **MUI** [User Interface]
 
-### License
+## License
 
 This project is licensed under the MIT License. For more information, refer to the LICENSE file.
