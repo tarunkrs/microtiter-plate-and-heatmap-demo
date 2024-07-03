@@ -9,16 +9,10 @@ const Heatmap = ({ data, metric }) => {
   /**
    * Generates an HSL color based on a given numeric value.
    *
-   * If the provided value is not a number, a random value between 0 and 10 is used.
-   * The color is determined by calculating the hue in the HSL color space,
-   * where the hue ranges from 0 to 440.
-   *
    * @function colorScale
    * @param {number} value - The input value used to calculate the color.
    * @returns {string} The HSL color string corresponding to the input value.
-   *
-   * @example
-   * const color = colorScale(0.5); // Returns a color based on the value 0.5
+   * 
    */
 
   const colorScale = (value) => {

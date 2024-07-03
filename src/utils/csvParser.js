@@ -1,4 +1,4 @@
-import Papa from "papaparse";
+import Parser from "papaparse";
 
 /**
  * Parses a CSV file using the PapaParse library and handles the parsed data or errors.
@@ -11,14 +11,14 @@ import Papa from "papaparse";
  */
 
 export const parseCSVData = (file, onDataLoad, setError) => {
-  Papa.parse(file, {
+  Parser.parse(file, {
     header: true, // Parse the CSV data with headers
     complete: (result) => {
-      onDataLoad(result.data); // Pass the parsed data to the callback function
-      setError(null); // Clear any previous error
+      onDataLoad(result.data);
+      setError(null);
     },
     error: () => {
-      setError("Error parsing CSV file"); // Set an error message if parsing fails
+      setError("Error parsing CSV file");
     },
   });
 };
