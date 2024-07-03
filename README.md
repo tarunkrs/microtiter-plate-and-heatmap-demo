@@ -11,9 +11,9 @@ This React.js web application allows users to upload a CSV file and visualize th
 
 ### Application Features
 
-- **Docker Compatibility**: Quickly build and deploy the application using Docker.
-- **CSV File Integration**: Sample CSV files are available under /Sample CSV/*.
-- **Dynamic Heatmaps**: Experience intuitive data visualization through interactive heatmaps.
+1. **Docker Compatibility**: Quickly build and deploy the application using Docker.
+2. **CSV File Integration**: Sample CSV files are available under /Sample CSV/*.
+3. **Dynamic Heatmaps**: Experience intuitive data visualization through interactive heatmaps.
 
 #### CSV File Sample[microtiter_plate_data.csv]
 
