@@ -72,7 +72,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
-- Run > **docker run -p 3000:3000 microtiter-plate-and-heatmap-demo**
+- Run > **docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo**
 - Once build is created successfully, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ## License
