@@ -3,21 +3,20 @@
 ### Overview
 This React.js web application allows users to upload a CSV file and visualize the data as a heatmap. The application provides an interactive interface for users to explore and analyze the data efficiently.
 
-## Prerequisites
+### Prerequisites
 
 - NodeJS v18.17.1
 - npm 10.8.1
 - Docker 4.31.1
 
-## Features
+### Application Features
 
 - **Docker Compatibility**: Quickly build and deploy the application using Docker.
 - **CSV File Integration**: Sample CSV files are available under /Sample CSV/*.
 - **Dynamic Heatmaps**: Experience intuitive data visualization through interactive heatmaps.
 
-### CSV File Sample 
+#### CSV File Sample[microtiter_plate_data.csv]
 
-### microtiter_plate_data.csv
 ```text
 WellID,Metric1,Metric2,Metric3,Metadata1,Metadata2
 A01,0.12,0.34,0.56,Sample1,Control
@@ -44,37 +43,42 @@ P47,0.52,0.74,0.96,Sample1535,Control
 P48,0.54,0.76,0.98,Sample1536,Treated
 ```
 
-## Getting Started
+### Getting Started
 
-### Manul Installation
+#### Manul Installation
 
-### Clone the repository:
+##### Clone the repository:
 
 - Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
-### Once clone is successful, to install required modules
+##### Once clone is successful, to install required modules
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **npm install** to install the dependencies
 
-### To run the application
+##### To run the application
 
 - Run > **npm start** to start the application
 - Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
-### Installation using Docker
+#### Installation using Docker
 
-### Clone the repository:
+##### Clone the repository:
 
 - Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
 
-### Once clone is successful, nevigate to respective dir
+##### Once clone is successful, nevigate to respective dir
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
 - Run > **docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo** to create and run the container
 - Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
-## License
+## Technologies Used
+
+- **React JS** [User Interface, Application Logic]
+- **MUI** [User Interface]
+
+### License
 
 This project is licensed under the MIT License. For more information, refer to the LICENSE file.
