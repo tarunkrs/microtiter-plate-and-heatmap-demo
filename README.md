@@ -82,8 +82,6 @@ Once server is up, now you are able to view the application at [http://localhost
 
 Please support by starring this project.
 
-[GitHub - tarunkrs](https://github.com/tarunkrs)
-
 ### License
 
 This project is licensed under the MIT License. For more information, refer to the LICENSE file.
