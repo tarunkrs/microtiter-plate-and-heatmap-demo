@@ -47,8 +47,6 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 ### Manul Installation
 
-#### Clone the repository:
-
 ```bash
 # 1. To clone reporepository
 git clone https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git
@@ -63,22 +61,16 @@ Once server is up, now you are able to view the application at [http://localhost
 
 ### Installation using Docker
 
-#### Clone the repository:
-
 ```bash
 # 1. To clone reporepository
 git clone https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git
-```
-#### Once clone is successful, nevigate to respective dir
-
-```bash
-# 1. Nevigate to directory
+# 2. Nevigate to directory
 cd microtiter-plate-and-heatmap-demo
-# 2. To create the build
+# 3. To create the build
 docker build -t microtiter-plate-and-heatmap-demo . 
-# 3. Nevigate to directory
+# 4. Nevigate to directory
 cd microtiter-plate-and-heatmap-demo
-# 4. To create and run the container
+# 5. To create and run the container
 docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo 
 ```
 Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
