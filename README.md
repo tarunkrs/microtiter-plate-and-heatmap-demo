@@ -42,7 +42,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 - NodeJS v18.17.1
 - npm 10.8.1
-- Docker 4.29.0
+- Docker 4.31.1 (153621)
 
 ## Getting Started
 
@@ -72,6 +72,7 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 - Run > **cd microtiter-plate-and-heatmap-demo**
 - Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
+- Run > **docker run -p 3000:3000 microtiter-plate-and-heatmap-demo**
 - Once build is created successfully, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ## License
