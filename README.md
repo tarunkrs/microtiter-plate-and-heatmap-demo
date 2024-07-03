@@ -49,30 +49,47 @@ P48,0.54,0.76,0.98,Sample1536,Treated
 
 #### Clone the repository:
 
-- Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
-
+```bash
+# 1. To clone reporepository
+git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
+```
 #### Once clone is successful, to install required modules
 
-- Run > **cd microtiter-plate-and-heatmap-demo**
-- Run > **npm install** to install the dependencies
-
+```bash
+# 1. Nevigate to directory
+cd microtiter-plate-and-heatmap-demo
+# 2. To Install dependencies
+npm install
+```
 #### To run the application
 
-- Run > **npm start** to start the application
-- Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
+```bash
+# 1. To start the application
+npm start
+```
+Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ### Installation using Docker
 
 #### Clone the repository:
 
-- Run > git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
-
+```bash
+# 1. To clone reporepository
+git clone [https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git](https://github.com/tarunkrs/microtiter-plate-and-heatmap-demo.git)
+```
 #### Once clone is successful, nevigate to respective dir
 
-- Run > **cd microtiter-plate-and-heatmap-demo**
-- Run > **docker build -t microtiter-plate-and-heatmap-demo .** to create the build
-- Run > **docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo** to create and run the container
-- Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
+```bash
+# 1. Nevigate to directory
+cd microtiter-plate-and-heatmap-demo
+# 2. To create the build
+docker build -t microtiter-plate-and-heatmap-demo . 
+# 3. Nevigate to directory
+cd microtiter-plate-and-heatmap-demo
+# 4. To create and run the container
+docker run -p 0.0.0.0:3000:3000 microtiter-plate-and-heatmap-demo 
+```
+Once server is up, now you are able to view the application at [http://localhost:3000](http://localhost:3000)
 
 ## Technologies Used
 
